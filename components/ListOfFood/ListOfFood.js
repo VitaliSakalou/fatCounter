@@ -109,7 +109,7 @@ class intListOfFood extends React.PureComponent {
                   visible={visible}
                   code={V.code}
                   data_identifier={V.code}
-                  name={V.name}
+                  name={V.name[0] + V.name.slice(1).toLowerCase()}
                   cbcheckProduct={this.checkProduct}
                   src={V.img}
                   cbminusProduct={this.minusProduct}

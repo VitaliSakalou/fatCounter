@@ -173,7 +173,7 @@ class intFoodGrafics extends React.PureComponent {
       <div className={"graficsBlockMain"}>
         <div className={"graficsValue"}>
           <span className={this.warning(objectOfDatas[0])}>
-            Calories - {objectOfDatas[0]} ccal
+            Calories - {objectOfDatas[0]} kcal
           </span>
           <span>Protein - {objectOfDatas[1]} g</span>
           <span>Fat - {objectOfDatas[2]} g</span>
