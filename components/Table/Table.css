@@ -1,0 +1,111 @@
+﻿.image {
+  height: 100px;
+}
+
+.imageBlock {
+  display: inline-block; 
+  position: relative;
+  padding: 5px;
+  width: 125px;
+  height: 115px;
+  transition-duration: .8s;
+}
+.imageBlock:hover {
+  background-color: rgba(52, 41, 47, .5);
+  transition-duration: .4s;
+  cursor: pointer;
+}
+.foodImage {
+  text-align: center;
+  min-height: 40vh;
+  /* background: radial-gradient(rgb(72, 158, 107) 0%, rgb(8, 73, 34) 100%);
+  background: radial-gradient(rgb(236, 126, 127) 0%, rgb(119, 21, 23) 100%); */
+  margin-left: 400px;
+}
+.foodName {
+  position: absolute;
+  bottom: 0px;
+  left: 10px;
+  color: white;
+  text-align: center;
+  font-family: 'Caveat Brush', cursive;
+  font-size: 20px;
+  line-height: 1;
+}
+.foodCount_ {
+  display: none;
+}
+.foodCount_visible {
+  display: inline-block;
+  position: absolute;
+  bottom: 20px;
+  right: -5px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: gold;
+}
+.x_count_ {
+  display: none;
+}
+.x_count_visible {
+  display: inline-block;
+  position: absolute;
+  bottom: 0px;
+  right: 10px;
+  color: red;
+  font-size: 30px;
+  font-family: 'Caveat Brush', cursive;
+}
+
+@media screen and (max-width: 768px) {
+  .foodImage {
+    min-height: 40vh;
+    background: radial-gradient(#30989c 0%, #0d3334 100%);
+    margin-left: 0;
+    padding: 40px 0;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .image {
+    height: 150px;
+  }
+  .imageBlock {
+    display: inline-block; 
+    position: relative;
+    padding: 5px;
+    width: 185px;
+    height: 172px;
+    transition-duration: .8s;
+  }
+  .foodCount_visible {
+    display: inline-block;
+    position: absolute;
+    bottom: 20px;
+    right: -5px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: gold;
+  }
+  .x_count_visible {
+    display: inline-block;
+    position: absolute;
+    bottom: 5px;
+    right: 12px;
+    color: red;
+    font-size: 30px;
+    font-family: 'Caveat Brush', cursive;
+  }
+  .foodName {
+    position: absolute;
+    bottom: 0px;
+    left: 10px;
+    color: white;
+    text-align: center;
+    font-family: 'Caveat Brush', cursive;
+    font-size: 32px;
+    line-height: .8;
+  }
+}

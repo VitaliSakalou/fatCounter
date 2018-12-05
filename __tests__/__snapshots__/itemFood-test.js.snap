@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`работа ItemFood  1`] = `
+<li
+  className="item undefined"
+  data-identifier={undefined}
+  onClick={[Function]}
+>
+  <span
+    className="btnundefined"
+  >
+    <button
+      className="btnBody"
+      data-identifier={undefined}
+      onClick={[Function]}
+    >
+      -
+    </button>
+    <span
+      className="btnCount"
+    />
+    <button
+      className="btnBody"
+      data-identifier={undefined}
+      onClick={[Function]}
+    >
+      +
+    </button>
+  </span>
+</li>
+`;

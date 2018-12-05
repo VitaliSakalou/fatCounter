@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding:0;
+  }
+.LinksBlock {
+    /* position: fixed;
+    top:0;
+    z-index: 99;*/
+    width: 100%; 
+    background-color: #34332f;
+    height: 100px;
+    display: flex;
+    justify-content:space-around;
+}
+.ActivePageLinkMain {
+    background-color: #E22B2E;
+}
+.ActivePageLinkMc {
+    background-color: #FEC940;
+}
+.ActivePageLinkBk {
+    background-color: #254195;
+}
+
+.backgroundMC,
+.backgroundBK  {
+    transition: .5s;
+    display: inline-block;
+}
+.backgroundMC:hover {
+    display: inline-block;
+    background-color: #FEC940;
+    transition: .5s;
+}
+.backgroundBK:hover {
+    display: inline-block;
+    background-color: #254195;
+    transition: .5s;
+}
+.backgroundMain:hover{
+    display: inline-block;
+    background-color:#E22B2E;
+    transition: .5s;
+}
+.PageLinkLogo {
+    text-align: center;
+}
+.Logo {
+    padding: 50px 0 0 0;
+    height: 100%;
+}
+
+.Loader {
+    position: absolute;
+    left: 0;
+    top:0;
+    background-color: rgba(53, 54, 54, .5);
+    height: 100vh;
+    width: 100vw;
+}
+.LoaderItem {
+    position: absolute;
+    width: 50px; 
+    left: 50%;
+    top:50%;
+    margin: -90px 0 0 -90px; 
+    text-align: center;
+}
+.MainPage {
+    height: 100vh;
+    width: 100vw;
+    background: radial-gradient(#30989c 0%, #0d3334 100%);
+    background-size: cover;
+    background-position: center;
+}
+.copyRight {
+    left: 0;
+    right:0;
+    color: rgb(8, 50, 51);
+    height: 30px;
+    position: fixed;
+    bottom: 5px;
+}
+@media screen and (max-width: 768px) {
+    .Logo {
+        padding: 100px 0 0 0;
+        height: 50vh;
+    }
+}
+@media screen and (min-width: 1600px) {
+    .Logo {
+        padding: 200px 0 0 0;
+        height: 50vh;
+    }
+}

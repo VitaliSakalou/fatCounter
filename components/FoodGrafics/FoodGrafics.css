@@ -1,0 +1,56 @@
+﻿.grafic {
+  width: 100px;
+  color:white;
+  font-size: 20px;
+  background-color: blue;
+  margin: 20px;
+  transition: 1s ease;
+}
+.grafic:hover {
+  background-color: aqua;
+  transition: none;
+}
+.graficsBlock {
+  height: 55vh;
+  min-height: 200px;
+  display:flex;
+  justify-content:space-around;
+  align-items: flex-end;
+}
+.graficsBlockMain {
+  margin: 0 0 0 400px;
+}
+.graficsValue {
+  color: white;
+  font-family: 'Caveat Brush', cursive;
+  font-size: 24px;
+  display: flex;
+  justify-content:space-around;
+  height: 40px;
+}
+.graficsValue span {
+  display: inline-block;
+}
+.warning {
+  color: red;
+}
+
+/*Стили для HightCharts*/
+#containerHightCharts, #sliders {
+  width: 100%;
+  /* height: 400px;  */
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+  .graficsBlockMain {
+    margin: 0;
+  }
+  .graficsValue {
+  height: 60px;
+}
+  .graficsValue span {
+    padding: 10px 0 0 0;
+    font-size: 16px;
+  }
+}
