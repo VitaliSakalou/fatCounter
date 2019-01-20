@@ -87,7 +87,7 @@ class intListOfFood extends React.PureComponent {
           className={"input"}
           type={"text"}
           onChange={this.searchFood}
-          placeholder="Seach..."
+          placeholder="Search..."
         />
         <ul
           className="list rounded"
